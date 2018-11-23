@@ -146,7 +146,7 @@ void Init_speex_decoder() {
 VALUE rb_decode(VALUE self, VALUE input, VALUE output) {
 	int c_result;
 
-	c_result = decode(RSTRING(input), RSTRING(output));
+	c_result = decode(StringValuePtr(input), StringValuePtr(output));
 
 	VALUE result = UINT2NUM(c_result);
 	return result;

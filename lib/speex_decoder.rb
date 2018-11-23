@@ -2,5 +2,7 @@ require "speex_decoder/version"
 require "speex_decoder/speex_decoder"
 
 module SpeexDecoder
-  # Your code goes here...
+  def self.test
+    SpeexDecoder.decode '/Users/xiaohui/Desktop/test.speex', '/Users/xiaohui/Desktop/test.wav'
+  end
 end

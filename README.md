@@ -17,4 +17,6 @@ sudp apt-get install speex build-essential libspeex-dev
 ```
 
 ### Usage 
+```
 SpeexDecoder('path/a.speex', 'path/a.wav')
+```

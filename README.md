@@ -13,10 +13,10 @@ brew install speex
 
 for Ubuntu 
 ```
-sudp apt-get install speex build-essential libspeex-dev
+sudo apt-get install speex build-essential libspeex-dev
 ```
 
 ### Usage 
 ```
-SpeexDecoder('path/a.speex', 'path/a.wav')
+SpeexDecoder.decode('path/a.speex', 'path/a.wav')
 ```
